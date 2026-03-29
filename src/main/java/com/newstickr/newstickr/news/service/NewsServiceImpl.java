@@ -149,7 +149,7 @@ public class NewsServiceImpl implements NewsService {
 
         // Groq API 요청 JSON 생성
         Map<String, Object> requestBody = Map.of(
-                "model", "llama3-8b-8192",
+                "model", "llama-3.1-8b-instant",
                 "messages", List.of(
                         Map.of("role", "system", "content", "You are an AI that performs sentiment analysis on news summaries."),
                         Map.of("role", "user", "content", "기사 요약 : " + summary + "\n2~3줄로 이 기사에 대한 감정 분석을 한국어로 해줘.")
