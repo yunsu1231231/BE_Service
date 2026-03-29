@@ -51,6 +51,8 @@ public class NewsServiceImpl implements NewsService {
     @Override
     public JsonNode searchNews(String query) {
 
+        System.out.println("Test");
+
         RestTemplate restTemplate = new RestTemplate();
 
         // 요청 URL 생성
