@@ -145,6 +145,10 @@ AI: Groq API (기사 요약 및 평가 )
 - `springdoc-openapi` 기반으로 Swagger UI 사용 가능 (프로젝트 설정에 따라 경로 상이)
 <br>
 
+## 🚀 CI/CD 및 배포
+
+- GitHub → Jenkins → Ansible → EC2(Docker) 구조로 자동 배포 파이프라인 구성
+
 
 
 
